@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
     <title>Mokgaudi Portfolio</title>
+    <link rel="icon" href="./Images/profile.jpg" type="image/x-icon">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -20,12 +21,15 @@
         <li><a href="#about"><i class="fa-solid fa-address-card"></i>About Me</a></li>
         <li><a href="#contact"><i class="fa-solid fa-address-book"></i>Contact Us</a></li>
       </ul>
+      <div class="menu-toggle-bar">
+        <i class="fa fa-bars"></i>
+      </div>
     </nav>
 
     <!-- Home Section -->
     <section id="home" class="home">
       <div class="home-content">
-        <video autoplay loop muted src="video/221780_small.mp4" class="bg-video"></video>
+        <video autoplay loop muted src="video/221780_small.mp4"  class="bg-video"></video>
       </div>
     </section>
 
@@ -56,13 +60,13 @@
       <h2>Contact Me</h2>
       <form action="POST">
         <label for="name">Your Name</label>
-        <input type="text" name="name" id="name"  required>
+        <input type="text" placeholder="Name" name="name" id="name"  required>
     
         <label for="email">Your Email</label>
-        <input type="email" name="_replyto" id="email" required>
+        <input type="email" placeholder="Email" name="_replyto" id="email" required>
     
         <label for="message">Message</label>
-        <textarea name="message" id="message"  required></textarea>
+        <textarea name="message" placeholder="Message" rows="6" id="message"  required></textarea>
     
         <button type="submit">Send Message</button>
       </form>
@@ -71,13 +75,13 @@
 
     <!-- Footer -->
     <footer class="footer">
-      <div class="footer-content">
+      <div class="footer-contact">
         <p>Mayibuye Ext 37 <br>2157 Ngwi Ngwi Street<br>Midrand<br>1685</p>
         
       </div>
       <div class="link">
         <h3>Additional Quick Links</h3>
-        <a href="#About">About Us</a>
+        <a href="#about">About Us</a>
         <a href="#contact">Contact</a>
         <a href="#service">Service</a>
        
@@ -89,9 +93,13 @@
         2!5e0!3m2!1sen!2sza!4v1743806727953!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
       <div class="social-media">
-        <a href="https://Facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://Facebook.com" ><i class="fa-brands fa-facebook-f"></i></a>
         <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
-        <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      <div class="copywrite">
+        <p>Copywrite &copy;2025 Designed by Mjoase</p>
+      </div>
       
     </footer>
   </body>
